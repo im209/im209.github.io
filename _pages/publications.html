@@ -5,32 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>2026</h2>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<p>
+  <strong>CLARIFID: Improving radiology report generation by reinforcing clinically accurate impressions and enforcing detailed findings</strong><br />
+  <strong>Kyeongkyu Lee</strong>, Seonghwan Yoon, and Hongki Lim.<br />
+  <em>Expert Systems with Applications</em>, 303, Article 130633, 2026.<br />
+  <a href="https://doi.org/10.1016/j.eswa.2025.130633" target="_blank" rel="noopener noreferrer">Journal</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://arxiv.org/abs/2507.17234" target="_blank" rel="noopener noreferrer">arXiv</a>
+</p>
