@@ -22,4 +22,4 @@ My research focuses on multimodal learning and large language models. I am parti
 - **M.S. in Electrical and Computer Engineering** (in progress), Inha University.
 - **Machine Intelligence Lab**, Inha University.
 
-For peer-reviewed work, see my [Publications](/publications/) page.
+For peer-reviewed work, see my [Publications](/publications/) page. An overview of my academic background is available in my [CV](/cv/).
